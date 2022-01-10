@@ -51,7 +51,7 @@ git clone https://github.com/jwillikers/esphome-funhouse.git
 ----
 
 . Copy the file to the ESPHome configuration directory.
-In my case, this directory is a name volume managed by {Podman}.
+In my case, this directory is a named volume managed by {Podman}.
 +
 [source,sh]
 ----
