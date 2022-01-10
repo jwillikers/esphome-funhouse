@@ -1,0 +1,92 @@
+= ESPHome FunHouse
+Jordan Williams <jordan@jwillikers.com>
+:experimental:
+:icons: font
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+:Adafruit-FunHouse: https://www.adafruit.com/product/4985[Adafruit FunHouse]
+:Adafruit-SHT40: https://www.adafruit.com/product/4885[Adafruit SHT40]
+:Asciidoctor: https://asciidoctor.org/[Asciidoctor]
+:ESP32-S2: https://www.espressif.com/en/products/socs/esp32-s2[ESP32-S2]
+:ESPHome: https://esphome.io[ESPHome]
+:Fedora: https://getfedora.org/[Fedora]
+:Fedora-Silverblue: https://silverblue.fedoraproject.org/[Fedora Silverblue]
+:fish: https://fishshell.com/[fish]
+:Git: https://git-scm.com/[Git]
+:Linux: https://www.linuxfoundation.org/[Linux]
+:Podman: https://podman.io/[Podman]
+:Python: https://www.python.org/[Python]
+:Rouge: https://rouge.jneen.net/[Rouge]
+:Ruby: https://www.ruby-lang.org/en/[Ruby]
+
+An {ESPHome} configuration for the {Adafruit-FunHouse} development board powered by the {ESP32-S2}.
+This configuration also includes an {Adafruit-MCP9808} temperature and humidity sensor.
+
+== Usage
+
+[NOTE]
+====
+Due to the fact that the ESP32-S2 is relatively new, ESPHome doesn't have full support for the microcontroller yet.
+Many features are unavailable using the ESP-IDF framework, which works best with the new chip.
+====
+
+[NOTE]
+====
+Support for Linux on `aarch64` is still in the works for the ESP-IDF platform, so I suggest using `x86_64`.
+====
+
+. Clone the repository.
++
+[source,sh]
+----
+git clone https://github.com/jwillikers/esphome-funhouse.git
+----
+
+. Copy the file to the ESPHome configuration directory.
+In my case, this directory is a name volume managed by {Podman}.
++
+[source,sh]
+----
+cp esphome-funhouse/FunHouse.yaml ~/.local/share/containers/storage/volumes/esphome-config/_data/
+----
+
+== Contributing
+
+Contributions in the form of issues, feedback, and even pull requests are welcome.
+Make sure to adhere to the project's link:CODE_OF_CONDUCT.adoc[Code of Conduct].
+
+== Open Source Software
+
+This project is built on the hard work of countless open source contributors.
+Several of these projects are enumerated below.
+
+* {Asciidoctor}
+* {ESPHome}
+* {Fedora}
+* {Fedora-Silverblue}
+* {fish}
+* {Git}
+* {Linux}
+* {Podman}
+* {Python}
+* {Rouge}
+* {Ruby}
+
+== Code of Conduct
+
+Refer to the project's link:CODE_OF_CONDUCT.adoc[Code of Conduct] for details.
+
+== License
+
+This repository is licensed under the https://www.gnu.org/licenses/gpl-3.0.html[GPLv3], a copy of which is provided in the link:LICENSE.adoc[license file].
+
+© 2022 Jordan Williams
+
+== Authors
+
+mailto:{email}[{author}]
