@@ -72,8 +72,8 @@ binary_sensor:
     filters:
       - delayed_on_off: 100ms
   - platform: gpio
+    name: "Button Down"
     pin:
-      name: "Button Down"
       number: GPIO3
       mode:
         input: true
