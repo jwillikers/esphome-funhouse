@@ -6,19 +6,26 @@ on:  # yamllint disable-line rule:truthy
       - main
 
 jobs:
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: yaml-lint
+        uses: ibiqlik/action-yamllint@v3
+
   build:
     name: Build
     runs-on: ubuntu-latest
+    needs: lint
     strategy:
       matrix:
         arch:
           - amd64
           # - arm64
     steps:
-      - name: Check out the repository
-        uses: actions/checkout@v2
-      - name: Build the ESPHome binary
-        uses: esphome/build-action@v1
+      - uses: actions/checkout@v2
+      - uses: esphome/build-action@v1
         id: esphome-build
         with:
           yaml_file: FunHouse.yaml
