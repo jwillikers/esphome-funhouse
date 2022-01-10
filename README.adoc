@@ -11,7 +11,7 @@ ifdef::env-github[]
 endif::[]
 :Adafruit-FunHouse: https://www.adafruit.com/product/4985[Adafruit FunHouse]
 :Adafruit-SHT40: https://www.adafruit.com/product/4885[Adafruit SHT40]
-:Asciidoctor: https://asciidoctor.org/[Asciidoctor]
+:Asciidoctor_: https://asciidoctor.org/[Asciidoctor]
 :ESP32-S2: https://www.espressif.com/en/products/socs/esp32-s2[ESP32-S2]
 :ESPHome: https://esphome.io[ESPHome]
 :Fedora: https://getfedora.org/[Fedora]
@@ -65,7 +65,7 @@ Make sure to adhere to the project's link:CODE_OF_CONDUCT.adoc[Code of Conduct].
 This project is built on the hard work of countless open source contributors.
 Several of these projects are enumerated below.
 
-* {Asciidoctor}
+* {Asciidoctor_}
 * {ESPHome}
 * {Fedora}
 * {Fedora-Silverblue}
