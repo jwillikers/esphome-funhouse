@@ -24,6 +24,9 @@ endif::[]
 :Rouge: https://rouge.jneen.net/[Rouge]
 :Ruby: https://www.ruby-lang.org/en/[Ruby]
 
+image:https://img.shields.io/github/workflow/status/jwillikers/esphome-funhouse/CI/main[GitHub Workflow Status]
+image:https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white[pre-commit, link=https://github.com/pre-commit/pre-commit]
+
 An {ESPHome} configuration for the {Adafruit-FunHouse} development board powered by the {ESP32-S2}.
 This configuration also includes an {Adafruit-MCP9808} temperature and humidity sensor.
 
