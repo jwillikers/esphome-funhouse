@@ -14,9 +14,6 @@ endif::[]
 :Asciidoctor_: https://asciidoctor.org/[Asciidoctor]
 :ESP32-S2: https://www.espressif.com/en/products/socs/esp32-s2[ESP32-S2]
 :ESPHome: https://esphome.io[ESPHome]
-:Fedora: https://getfedora.org/[Fedora]
-:Fedora-Silverblue: https://silverblue.fedoraproject.org/[Fedora Silverblue]
-:fish: https://fishshell.com/[fish]
 :Git: https://git-scm.com/[Git]
 :Linux: https://www.linuxfoundation.org/[Linux]
 :Podman: https://podman.io/[Podman]
@@ -70,9 +67,6 @@ Several of these projects are enumerated below.
 
 * {Asciidoctor_}
 * {ESPHome}
-* {Fedora}
-* {Fedora-Silverblue}
-* {fish}
 * {Git}
 * {Linux}
 * {Podman}
