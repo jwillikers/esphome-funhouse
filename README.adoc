@@ -10,7 +10,7 @@ ifdef::env-github[]
 :warning-caption: :warning:
 endif::[]
 :Adafruit-FunHouse: https://www.adafruit.com/product/4985[Adafruit FunHouse]
-:Adafruit-SHT40: https://www.adafruit.com/product/4885[Adafruit SHT40]
+:Adafruit-MCP9808: https://www.adafruit.com/product/5027[Adafruit MCP9808]
 :Asciidoctor_: https://asciidoctor.org/[Asciidoctor]
 :ESP32-S2: https://www.espressif.com/en/products/socs/esp32-s2[ESP32-S2]
 :ESPHome: https://esphome.io[ESPHome]
